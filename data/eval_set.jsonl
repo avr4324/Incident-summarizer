@@ -1,0 +1,10 @@
+{"query": "ALERT checkout-api 500 errors rising after deploy 4.13, NullPointerException in order mapper, error rate 30%", "relevant_ids": ["INC-001"], "key_terms": ["rollback", "null", "deploy"]}
+{"query": "orders-service p99 latency 15s, timeout waiting for connection from pool, db connections maxed", "relevant_ids": ["INC-002"], "key_terms": ["connection", "pool", "index"]}
+{"query": "Pods being evicted DiskPressure on prod nodes, ephemeral storage nearly full, huge container logs", "relevant_ids": ["INC-003"], "key_terms": ["log", "disk", "rotation"]}
+{"query": "Customers see SSL handshake failure on api gateway, cert expired this morning", "relevant_ids": ["INC-004"], "key_terms": ["certificate", "renew", "expiry"]}
+{"query": "events topic consumer lag keeps growing, consumer group rebalancing repeatedly", "relevant_ids": ["INC-005"], "key_terms": ["rebalance", "poll", "consumer"]}
+{"query": "search pods OOMKilled repeatedly, heap grows, GC pauses long", "relevant_ids": ["INC-006"], "key_terms": ["memory", "cache", "eviction"]}
+{"query": "users randomly logged out, redis primary failover, session data missing", "relevant_ids": ["INC-007"], "key_terms": ["redis", "memory", "failover"]}
+{"query": "payment authorization taking over 8 seconds, provider timeouts, many retries", "relevant_ids": ["INC-008"], "key_terms": ["circuit", "backoff", "provider"]}
+{"query": "services failing name resolution, coredns crash loop, 503 everywhere in cluster", "relevant_ids": ["INC-009", "INC-003"], "key_terms": ["coredns", "revert", "config"]}
+{"query": "deploy pipeline blocked, integration tests flaky, test database slow to start", "relevant_ids": ["INC-010"], "key_terms": ["flaky", "test", "database"]}
